@@ -1,0 +1,21 @@
+cherry			-> 2
+strawberry		-> 4
+grapes			-> 6
+mandarin		-> 8
+orange			-> 10
+^Spawnable, rest only by merging
+apple			-> 12
+pear			-> 14
+peach			-> 16
+pineapple		-> 18
+melon			-> 20
+watermelon		
+
+Impact point where raycast hit the collider
+https://docs.unity3d.com/ScriptReference/RaycastHit-point.html
+
+You could probably take advantage of the gameobjects renders “bounds”. 
+You can find the min bounds y and max bounds y to find the total height of the object you want
+to instantiate. Then check that against the total high of the space. Same goes for x and z. 
+So lookup and read about a meshes “bounds…
+https://docs.unity3d.com/ScriptReference/Bounds.html
