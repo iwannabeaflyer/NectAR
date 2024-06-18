@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NectAR.unity
     guid: 26e4a2e0af7376f49aa805466e7de08b
+  - enabled: 0
+    path: Assets/Scenes/ARDeconstruction.unity
+    guid: fb364eb5a77534d47b817168f2cf2987
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e0bf79ed50b54554b84d7b8aee2e6365, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1e82a98fbcf25a341830f70b5b04d87a, type: 2}
